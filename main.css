@@ -1,0 +1,84 @@
+
+.carousel-inner img {
+    width: 100%;
+    height:auto;
+  }
+
+  #bar-1{
+      margin: auto;
+      margin-top: -20px;
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content: center;
+  }
+  .buscar{
+      color: white;
+      background-color: turquoise;
+      border-radius: 7px;
+      border: 1px solid turquoise;
+      font-size: 18px;
+  }
+  *{
+      margin: 0px;
+  }
+
+  .flex-container{
+      display: flex;
+      background-color: black;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+
+  } 
+
+   .flex-container div{
+    width: 250px;
+    height: 400px;
+      color: black;
+      background-color: white;
+      border:2px solid white ;
+      margin: 35px;
+
+  } 
+  .flex-container div img{
+    width: 250px;
+    height: 250px;
+
+  } 
+
+
+  .mensaje{
+      color: darkorange;
+      background-color: black;
+      border: 2px solid darkorange;
+      text-align: center;
+      padding-top: 2px;
+      border-radius: 5px;
+  }
+
+/*   .card {
+
+    box-shadow: 0 4px 8px 0 rgba(5, 253, 212, 0.767);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 251, 5, 0.986);
+  } */
+  
+  #botonComprar{
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50;
+    width: 50%;
+    margin-left:25%;
+    margin-bottom: 10%;
+    
+  }
+  
+  #botonComprar:hover {
+    background-color: white;
+    color: black;
+  } 
+
